@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "1896cac3-de4f-4a64-b0d7-4ed548a3c151"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -52,9 +55,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/nova/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/ngx-toastr/toastr.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/chart.js/dist/chart.min.js"
+            ]
           },
           "configurations": {
             "production": {
